@@ -1,0 +1,23 @@
+
+{ 
+    "name": "豆瓣电影搜索", 
+    "description": "右键豆瓣搜索", 
+    "version": "0.2", 
+    "permissions": ["contextMenus", "tabs"], 
+    "background": { 
+        "scripts": ["menu.js"] 
+    }, 
+
+    "manifest_version": 2,
+
+    "icons":{
+        "16": "16.png",
+        "48": "48.png",
+        "128": "128.png"
+    },
+
+    "browser_action": {
+
+    }
+
+} 
